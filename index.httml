@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IEEE LaunchPad Kerala Newsletter</title>
+    <style>
+        body {
+            line-height: 1.3em;
+
+        }
+
+        .history-tl-container {
+            font-family: "Roboto", sans-serif;
+            margin: auto;
+            display: block;
+            position: relative;
+        }
+
+        .history-tl-container ul.tl {
+            margin: 20px 0;
+            padding: 0;
+            display: inline-block;
+
+        }
+
+        .history-tl-container ul.tl li {
+            list-style: none;
+            margin: auto;
+            margin-left: 100px;
+            min-height: 50px;
+            border-left: 1px dashed #86D6FF;
+            padding: 0 0 50px 30px;
+            position: relative;
+        }
+
+        .history-tl-container ul.tl li:last-child {
+            border-left: 0;
+        }
+
+        .history-tl-container ul.tl li::before {
+            position: absolute;
+            left: -18px;
+            top: -5px;
+            content: " ";
+            border: 8px solid rgba(255, 255, 255, 0.74);
+            border-radius: 500%;
+            background: #258CC7;
+            height: 20px;
+            width: 20px;
+            transition: all 500ms ease-in-out;
+
+        }
+
+        .history-tl-container ul.tl li:hover::before {
+            border-color: #258CC7;
+            transition: all 1000ms ease-in-out;
+        }
+
+        ul.tl li .item-detail {
+            color: rgba(0, 0, 0, 0.5);
+            font-size: 12px;
+        }
+
+        ul.tl li .timestamp {
+            color: #8D8D8D;
+            position: absolute;
+            width: 100px;
+            left: -50%;
+            text-align: right;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body style="font-family: Arial, sans-serif;">
+
+
+
+    <section style="background-color: #f4f4f4; padding: 20px;">
+        <h1 style="color: #333;">Welcome to IEEE LaunchPad Kerala!</h1>
+        <p>
+            IEEE LaunchPad Kerala is a premier job fair organized by IEEE Kerala Section and GTech MuLearn. Our mission
+            is to create opportunities for engineering students and graduates by connecting them with innovative
+            companies in the technical and engineering fields.
+        </p>
+    </section>
+
+    <section style="background-color: #fff; padding: 20px;">
+        <h2 style="color: #333;">Join Us Today!</h2>
+        <p>
+            We invite you to join LaunchPad Kerala 2024 and be a part of this exciting event that offers unparalleled
+            opportunities for both candidates and companies. Register now to participate, network, and explore diverse
+            career paths!
+        </p>
+        <a href="https://launchpadkerala.org"
+            style="background-color: #007bff; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Register
+            Now</a>
+    </section>
+
+
+
+    <section style=" padding: 20px;">
+        <h2 style="color: #333;">Latest Updates</h2>
+        <p>
+            The Launchpad Kerala 2024 has officially kicked off! It's time to dive in and seize the opportunities waiting for you.
+            And guess what? There's still time to register! Whether you're a student ready to embark on your career journey or a seasoned professional seeking fresh challenges, Launchpad Kerala 2024 has something for everyone. Don't miss out – register now and join us for this extraordinary event!
+            
+        </p>
+                   
+    </section>
+
+    <section style="background-color: #fff; padding: 20px;">
+        <h2 style="color: #333;">Event Roadmap</h2>
+
+
+        <link href='//fonts.googleapis.com/css?family=Roboto:200,400,600' rel='stylesheet' type='text/css'>
+        <div class="history-tl-container">
+            <ul class="tl">
+                <li class="tl-item" ng-repeat="item in retailer_history">
+                    <div class="timestamp">
+                        1
+                    </div>
+                    <div class="item-title">Participant Registration</div>
+
+                </li>
+                <li class="tl-item" ng-repeat="item in retailer_history">
+                    <div class="timestamp">
+                        2
+                    </div>
+                    <div class="item-title">Company Registration Close
+                    </div>
+
+                </li>
+                <li class="tl-item" ng-repeat="item in retailer_history">
+                    <div class="timestamp">
+                        3
+                    </div>
+                    <div class="item-title">Challenge Start</div>
+                </li>
+                <li class="tl-item" ng-repeat="item in retailer_history">
+                    <div class="timestamp">
+                        4
+                    </div>
+                    <div class="item-title">Online Exam </div>
+                </li>
+                <li class="tl-item" ng-repeat="item in retailer_history">
+                    <div class="timestamp">
+                        5
+                    </div>
+                    <div class="item-title">Consolidated Rank List</div>
+                </li>
+                <li class="tl-item" ng-repeat="item in retailer_history">
+                    <div class="timestamp">
+                        6
+                    </div>
+                    <div class="item-title">Option Selection </div>
+                </li>
+                <li class="tl-item" ng-repeat="item in retailer_history">
+                    <div class="timestamp">
+                        7
+                    </div>
+                    <div class="item-title"> Confirmed Mail to Selected Participants</div>
+                </li>
+                <li class="tl-item" ng-repeat="item in retailer_history">
+                    <div class="timestamp">
+                        8
+                    </div>
+                    <div class="item-title">Interviews </div>
+                </li>
+
+            </ul>
+
+        </div>
+    </section>
+
+
+
+
+
+</body>
+
+</html>
